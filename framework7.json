@@ -1,0 +1,19 @@
+{
+  "cwd": "/Users/lawted/Documents/Code/JJZZ",
+  "type": [
+    "web"
+  ],
+  "name": "JJZZ",
+  "framework": "react",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
