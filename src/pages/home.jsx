@@ -10,7 +10,7 @@ import {
 
 const HomePage = () => (
   <Page name="home">
-    <Navbar large transparent title="叽叽喳喳"></Navbar>
+    <Navbar large transparent titleLarge="Chirp"></Navbar>
     <List inset>
       <ListItem title="All Chats" link="#">
         <Icon slot="media" f7="chat_bubble_2" className="text-red-200"></Icon>
