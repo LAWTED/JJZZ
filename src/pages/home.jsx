@@ -1,26 +1,12 @@
-import React from "react";
+import React from 'react';
 import {
   Page,
   Navbar,
-  NavLeft,
-  NavTitle,
-  NavTitleLarge,
-  NavRight,
-  Link,
-  Toolbar,
-  Block,
   BlockTitle,
   List,
   ListItem,
-  Row,
-  Col,
-  Button,
-  Card,
-  CardHeader,
-  CardContent,
-  CardFooter,
   Icon,
-} from "framework7-react";
+} from 'framework7-react';
 
 const HomePage = () => (
   <Page name="home">
