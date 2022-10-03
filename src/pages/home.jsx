@@ -34,7 +34,7 @@ const HomePage = () => (
         <Icon slot="media" f7="star"></Icon>
       </ListItem>
       <ListItem title="Top Chats" link="#">
-        <Icon slot="media" f7="chart_bar_alt_fill"></Icon>
+        <Icon slot="media" f7="chart_bar"></Icon>
       </ListItem>
     </List>
 
@@ -44,7 +44,7 @@ const HomePage = () => (
         <Icon slot="media" f7="gear"></Icon>
       </ListItem>
       <ListItem title="About" link="#">
-        <Icon slot="media" f7="info"></Icon>
+        <Icon slot="media" f7="info_circle"></Icon>
       </ListItem>
     </List>
   </Page>
