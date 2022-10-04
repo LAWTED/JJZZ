@@ -175,6 +175,7 @@ const ChatPage = () => {
   };
   const sendMessage = () => {
     const textMessageSound = new Audio('../assets/textMessage.mp3');
+    textMessageSound.volume = 0.5;
     textMessageSound.play();
     const text = messageText.replace(/\n/g, '<br>').trim();
     const messagesToSend = [];
