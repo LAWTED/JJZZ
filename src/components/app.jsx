@@ -32,7 +32,7 @@ const MyApp = () => {
   const f7params = {
     name: 'JJZZ', // App name
     theme: 'auto', // Automatic theme detection
-
+    autoDarkMode: true,
     // App store
     store: store,
     // App routes

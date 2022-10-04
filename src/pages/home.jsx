@@ -12,25 +12,25 @@ const HomePage = () => (
   <Page name="home">
     <Navbar large transparent titleLarge="Chirp"></Navbar>
     <List inset>
-      <ListItem title="All Chats" link="#">
-        <Icon slot="media" f7="chat_bubble_2" className="text-red-200"></Icon>
+      <ListItem title="All Chats" link="/all-chats/">
+        <Icon slot="media" f7="chat_bubble_2" className="text-primary"></Icon>
       </ListItem>
 
       <ListItem title="Stared Chats" link="#">
-        <Icon slot="media" f7="star"></Icon>
+        <Icon slot="media" f7="star" className="text-primary"></Icon>
       </ListItem>
       <ListItem title="Top Chats" link="#">
-        <Icon slot="media" f7="chart_bar"></Icon>
+        <Icon slot="media" f7="chart_bar" className="text-primary"></Icon>
       </ListItem>
     </List>
 
     <BlockTitle medium>Others</BlockTitle>
     <List inset>
       <ListItem title="Settings" link="#">
-        <Icon slot="media" f7="gear"></Icon>
+        <Icon slot="media" f7="gear" className="text-primary"></Icon>
       </ListItem>
       <ListItem title="About" link="#">
-        <Icon slot="media" f7="info_circle"></Icon>
+        <Icon slot="media" f7="info_circle" className="text-primary"></Icon>
       </ListItem>
     </List>
   </Page>
