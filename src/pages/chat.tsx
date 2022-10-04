@@ -174,6 +174,8 @@ const ChatPage = () => {
     setAttachments([...attachments]);
   };
   const sendMessage = () => {
+    const textMessageSound = new Audio('../assets/textMessage.mp3');
+    textMessageSound.play();
     const text = messageText.replace(/\n/g, '<br>').trim();
     const messagesToSend = [];
     attachments.forEach((attachment) => {
