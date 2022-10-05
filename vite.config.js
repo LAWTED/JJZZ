@@ -1,12 +1,13 @@
 import path from 'path';
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import eslintPlugin from 'vite-plugin-eslint';
+import AutoImport from 'unplugin-auto-import/vite';
 
 const SRC_DIR = path.resolve(__dirname, './src');
 const PUBLIC_DIR = path.resolve(__dirname, './public');
 const BUILD_DIR = path.resolve(__dirname, './www');
 export default {
-  plugins: [reactRefresh(), eslintPlugin()],
+  plugins: [reactRefresh(), eslintPlugin(), AutoImport()],
   root: SRC_DIR,
   base: '',
   publicDir: PUBLIC_DIR,

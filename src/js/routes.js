@@ -12,7 +12,7 @@ var routes = [
     component: AllChatsPage,
   },
   {
-    path: '/chat/',
+    path: '/chat/:id/',
     component: ChatPage,
   },
   {

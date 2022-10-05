@@ -15,7 +15,11 @@ import {
   f7,
 } from 'framework7-react';
 
-const ChatPage = () => {
+interface ChatProps {
+  id: number;
+}
+
+const ChatPage = (props: ChatProps) => {
   const images = [
     'https://cdn.framework7.io/placeholder/cats-300x300-1.jpg',
     'https://cdn.framework7.io/placeholder/cats-200x300-2.jpg',
@@ -231,7 +235,7 @@ const ChatPage = () => {
 
   return (
     <Page>
-      <Navbar title="Messages" backLink="All Chats"></Navbar>
+      <Navbar title={`Message - ${props.id}`} backLink="All Chats"></Navbar>
 
       <Messagebar
         placeholder={placeholder()}

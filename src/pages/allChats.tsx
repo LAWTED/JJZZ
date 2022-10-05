@@ -15,10 +15,10 @@ const AllChatsPage = () => {
       ></Navbar>
 
       <List mediaList>
-        {allChatsBots.map((bot) => (
+        {allChatsBots.map((bot, index) => (
           <ListItem
             key={bot}
-            link="/chat/"
+            link={`/chat/${index}/`}
             title="Lawted"
             text="a frontend developer, a creator of this app, a BUPT student"
           >
